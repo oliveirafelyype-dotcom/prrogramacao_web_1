@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Completo de Tags Semânticas HTML5</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO PRINCIPAL DO SITE -->
+    <header>
+        <h1>Nome do Site / Portal</h1>
+        
+        <!-- NAVEGAÇÃO PRINCIPAL -->
+        <nav>
+            <ul style="list-style-type: none">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="d_whats">
+            <p class="p_whats"><strong>W</strong></p>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
+    <main>
+        <section>
+            <h2>Titulo 2</h2>
+            <p><strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, laborum dolore! Repudiandae fugit sapiente impedit rerum, ipsa numquam quos quasi ex inventore libero suscipit natus magni rem neque labore vero!</strong></p>
+        </section>
+        <section>
+            <h2>Titulo 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, laborum dolore! Repudiandae fugit sapiente impedit rerum, ipsa numquam quos quasi ex inventore libero suscipit natus magni rem neque labore vero!</p>
+        </section>
+        <section>
+            <h2>Titulo 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, laborum dolore! Repudiandae fugit sapiente impedit rerum, ipsa numquam quos quasi ex inventore libero suscipit natus magni rem neque labore vero!</p>
+        </section>
+        <section>
+            <h2>Titulo 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, laborum dolore! Repudiandae fugit sapiente impedit rerum, ipsa numquam quos quasi ex inventore libero suscipit natus magni rem neque labore vero!</p>
+        </section>
+        <section>
+            <h2>Titulo 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, laborum dolore! Repudiandae fugit sapiente impedit rerum, ipsa numquam quos quasi ex inventore libero suscipit natus magni rem neque labore vero!</p>
+        </section>
+        <section>
+            <h2>Titulo 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, laborum dolore! Repudiandae fugit sapiente impedit rerum, ipsa numquam quos quasi ex inventore libero suscipit natus magni rem neque labore vero!</p>
+        </section>
+
+        <!-- SEÇÃO: Destaque ou Apresentação -->
+        <section id="home">
+            <h2>Bem-vindo ao Nosso Portal Semântico</h2>
+            <p>Esta página foi estruturada utilizando exclusivamente tags semânticas para demonstrar a boa prática de acessibilidade e SEO.</p>
+        </section>
+
+        <!-- SEÇÃO: Artigos de Notícias/Blog -->
+        <section id="artigos">
+            <h2>Últimos Artigos</h2>
+
+            <!-- ARTIGO 1 -->
+            <article>
+                
+
+                <p>O HTML semântico introduz significado às páginas web em vez de apenas definir a sua aparência. Por exemplo, usar a tag <mark>article</mark> indica um conteúdo independente.</p>
+
+                <!-- CONTEÚDO DE MÍDIA / FIGURA -->
+                <figure>
+                    <img src="https://via.placeholder.com/400x200" alt="Exemplo de código HTML">
+                    <figcaption>Figura 1: Estrutura básica de um documento HTML.</figcaption>
+                </figure>
+
+                <!-- CITAÇÃO DE BLOCO -->
+                <blockquote cite="https://w3.org">
+                    "A web é para todos e deve ser acessível a qualquer pessoa, em qualquer lugar."
+                </blockquote>
+
+                <footer>
+                    <p>Categorias: <a href="#">Desenvolvimento Web</a> | <a href="#">HTML5</a></p>
+                </footer>
+            </article>
+
+            <!-- ARTIGO 2 com Detalhes/Interatividade -->
+            <article>
+             
+
+                <p>Aqui temos um exemplo de texto com <del>informação desatualizada</del> e <ins>informação atualizada</ins>.</p>
+
+                <!-- CONTEÚDO EXPANDÍVEL SEMÂNTICO -->
+                <details>
+                    <summary>Clique para ver a resposta/detalhes</summary>
+                    <p>Este texto fica oculto até que o usuário clique na tag <code>&lt;summary&gt;</code>.</p>
+                </details>
+            </article>
+        </section>
+
+        <!-- BARRA LATERAL (Conteúdo Secundário / Relacionado) -->
+        <aside>
+            <h3>Sobre o Autor</h3>
+            <p>Desenvolvedor focado em acessibilidade, SEO e padrões web.</p>
+            
+            <h3>Links Recomendados</h3>
+            <ul>
+                <li><a href="#">Documentação MDN Web Docs</a></li>
+                <li><a href="#">Guia do W3C</a></li>
+            </ul>
+        </aside>
+
+        <!-- SEÇÃO DE FORMULÁRIO -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto">
+                        <option value="duvida">Dúvida</option>
+                        <option value="sugestao">Sugestão</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sua Mensagem</legend>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ DO SITE -->
+    <footer>
+        <p>&copy; 2026 Meu Site Semântico. Todos os direitos reservados.</p>
+        <p>Desenvolvido de acordo com as especificações do W3C.</p>
+    </footer>
+
+</body>
+</html>
