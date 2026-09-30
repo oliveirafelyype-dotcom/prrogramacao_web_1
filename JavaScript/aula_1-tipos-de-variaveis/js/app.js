@@ -1,18 +1,4 @@
 
-//comentario de uma linha
-/* 
-comentario de varias linhas
-*/
-
-/*
-alert- interacao de pop-up com o usuario
-alert("bem vindo ao meu site");
-
-*/
-
-//utilizando as ferramentas de desenvolvimento
-console.log("hello world");
-
 //tipos de variaveis
 let num1 = 10 //tipo number
 let num2 = 7.5//tipo number
