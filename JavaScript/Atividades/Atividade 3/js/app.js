@@ -1,6 +1,6 @@
 let idade = Number(prompt("qual e a sua idade: "))
 if(idade < 18){
-    alert("INVALIDO nao podera assinar")
+    alert("INVALIDO nao poderas assinar")
 }
 else{
     alert("entao escolha entre os planos")
